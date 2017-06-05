@@ -1,0 +1,103 @@
+*{
+	box-sizing:border-box;
+}
+
+
+#principal
+{
+   width: 1500px; 
+   background-color: white;
+   margin: auto;
+   height: 900px;
+
+   opacity:0.6;
+}
+
+#menu 
+{
+	margin: auto;
+}
+
+#BotonVolver
+{
+ top:1000px;
+ right:150px;
+ width: 300px;
+ height: 50px;
+ display: flex;
+ position: fixed;
+
+}
+
+
+#TextoBoton
+{
+	font-family:courier New;	
+	font-size: 30px;	
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	color: whitesmoke;
+	border: 2px solid yellow;
+}
+
+#textoModelado
+{
+	font-family:courier New;
+	font-size: 150px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 4;
+	color: rgba(0,0,0,1);
+	background-color: whitesmoke;
+	opacity: 0.6;
+}
+
+#textoAcabados
+{
+	font-family:courier New;
+	font-size: 150px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	color: rgba(0,0,0,1);
+	z-index: 4;
+	background-color: whitesmoke;
+	opacity: 0.6;
+}
+
+#textoAnimación
+{
+	font-family:courier New;
+	font-size: 150px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	color: rgba(0,0,0,1);
+	z-index: 4;
+	background-color: #99bbff;
+	opacity: 0.6;
+}
+
+#textoExtras
+{
+	font-family:courier New;
+	font-size: 150px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	color: rgba(0,0,0,1);
+	z-index: 4;
+	background-color: #99bbff;
+	opacity: 0.6;
+}
