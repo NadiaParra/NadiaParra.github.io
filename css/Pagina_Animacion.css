@@ -35,7 +35,16 @@ body {
   
 }
 
+.renders
+{
 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+
+}
 div.gallery
  {
     margin:50px;
@@ -60,11 +69,7 @@ div.gallery img {
     height: auto;
 }
 
-div.desc {
-   
-    text-align: center;
-	
-}
+
 
 #BotonVolver
 {
@@ -74,6 +79,8 @@ div.desc {
  height: 50px;
  display: flex;
  position: fixed;
+ 
+ 
 }
 
 #TextoBoton
@@ -85,4 +92,5 @@ div.desc {
     top: 50%;
     transform: translate(-50%, -50%);
 	color: whitesmoke;
+	border: 1px solid whitesmoke;
 }
